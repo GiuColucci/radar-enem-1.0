@@ -16,6 +16,7 @@ Acredito que alunos devem contar não apenas com materiais didáticos de ponta, 
 - 🔍 Organização dos temas mais cobrados dentro dos principais conteúdos (ao clicar nas fatias dos gráficos);
 - 📱 Interface simples, responsiva e objetiva;
 - � Divisão modular por páginas (uma para cada área do ENEM).
+- Segue Abaixo uma demo do projeto:
 ![Demo do RADAR ENEM](assets/Gifdemo.gif)
 
 ## 🛠️ Tecnologias Utilizadas
@@ -47,7 +48,7 @@ O RADAR ENEM 1.0 foi testado e otimizado para o **Google Chrome**. A compatibili
 - [ ] Ampliar a análise para outros vestibulares civis e militares concorridos por todo o Brasil.
 
 ## Contribuições
-Contribuições são bem-vindas! Siga estes passos:
+Contribuições são bem-vindas!
 
 
 Desenvolvido por Giulia Colucci - Democratizando a educação no Brasil!
