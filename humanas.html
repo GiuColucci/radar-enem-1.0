@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RADARENEM-CienciasHumanasesuasTecnologias</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body class="humanas">
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="linguagens.html">Linguagens e Códigos</a>
+            <a class="cabecalho__menu__link" href="humanas.html">Ciências Humanas e suas Tecnologias</a>
+            <a class="cabecalho__menu__link" href="mat.html">Matemática e Suas Tecnologias</a>
+            <a class="cabecalho__menu__link" href="naturezas.html">Ciências da Natureza e suas Tecnologias</a>
+            <a class="cabecalho__menu__link" href="fontes.html">Fontes</a>
+        </nav>
+    </header>
+     <main class = "cabecalho__materias">
+        <h1 class="cabecalho__materias__titulo">CIÊNCIAS HUMANAS</h1>
+        <p class="cabecalho__materias__texto">As questões de Ciências Humanas e suas Tecnologias no ENEM abrangem temas como História, Geografia, Filosofia e Sociologia.</p>
+      <div class="cabecalho__materias__subtitulo">
+        <h2 class="cabecalho__materias__subtitulo">Assuntos Frequentes</h2>
+         </div>
+        <div class="container-graficos-naturezas">
+            <div class="grafico__com__texto__complexo">
+                <canvas id="pizzahist" class="graficopizza__complexo"></canvas>
+                <div id="info-grafico-hist"></div>
+            </div>
+            <div class="grafico__com__texto__complexo">
+                <canvas id="pizzageo" class="graficopizza__complexo"></canvas>
+                <div id="info-grafico-geo"></div>
+            </div>
+            <div class="grafico__com__texto__complexo">
+                <canvas id="pizzafs" class="graficopizza__complexo"></canvas>
+                <div id="info-grafico-fs"></div>
+            </div>
+        </div>
+        <div class="cabecalho__materias__subtitulo">
+        <h2>Médias</h2>
+        </div>
+        <div class="grafico__com__texto">
+         <canvas id="linhashum"></canvas>  
+        </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="graficos.js"></script>
+     </main>
+</body>
+</html>

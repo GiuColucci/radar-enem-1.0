@@ -1,0 +1,397 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+
+:root {
+    --cor-primaria:#0B1D51;
+    --cor-secundaria:#000000;
+    --cor-fundo:#1B56FD;
+    --cor-terciaria:#f6f6f6; 
+
+
+    --fonte-primaria: 'IBM Plex Sans', sans-serif;
+    --fonte-secundaria:'Bebas Neue', cursive;
+}
+
+ *{
+margin: 5px;
+padding: 5px;
+box-sizing:border-box;
+
+}
+
+body {
+    position: relative;
+    min-height: 100vh;
+    color: var(--cor-primaria);
+    font-family: var(--fonte-primaria);
+    font-size:18px;
+    line-height: 1.5;
+    
+}
+
+body::before {
+    content: "";
+    position: fixed; /* Fica fixo na tela, atrás de tudo */
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(5px); /* Aplica o desfoque só na imagem */
+    z-index: -1; /* Fica atrás do conteúdo do body */
+}
+
+body.index::before {
+    background-image: url('../assets/fundop1.png');
+}
+
+body.humanas::before {
+    background-image: url('../assets/humanasfundo.png');
+}
+
+body.naturezas::before {
+    background-image: url('../assets/natufundo.png');
+}
+
+body.matematica::before {
+    background-image: url('../assets/fundomat.png');
+}
+
+body.linguagens::before {
+    background-image: url('../assets/provisorio.png');
+}
+
+.cabecalho{
+    padding: 2% 0% 0% 0%;
+    display:flex;
+    justify-content: center;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap:40px;
+    
+}
+
+.cabecalho__menu__link:hover {
+    color: var(--cor-fundo);
+    text-decoration:dashed;
+}
+
+
+.cabecalho__menu__link {
+    color:var(--cor-primaria);
+    font-family:var(--fonte-secundaria);
+    text-decoration:none;
+    font-weight: 400;
+    gap:20px;
+}
+
+.apresentação {
+    padding:5% 15%;
+    display:flex;
+    align-items: center;
+}
+
+.apresentacao__texto__titulo {
+    color:var(--cor-primaria);
+    font-family:var(--fonte-secundaria);
+    font-size:130px;
+    text-align: center;
+    margin-top:10px;
+    margin-bottom: 20px;
+}
+
+.fonte__texto__titulo {
+    color:var(--cor-primaria);
+    font-family:var(--fonte-secundaria);
+    font-size:130px;
+    text-align: center;
+    margin-top:10px;
+    margin-bottom: 20px;
+}
+.retangulo {
+    width: 100%;
+    height: auto;
+    padding:50px;
+    border-top:4px solid var(--cor-fundo);
+    border-bottom:4px solid var(--cor-fundo);  
+    box-shadow:#0B1D51 0px 0px 10px;
+}
+
+.retangulo2 {
+    width: 100%;
+    height: auto;
+    padding:15px;
+    border-top:4px solid var(--cor-fundo);
+    border-bottom:4px solid var(--cor-fundo);  
+    box-shadow:#0B1D51 0px 0px 10px;
+}
+
+.apresentacao__texto__subtitulo {
+    color:var(--cor-primaria);
+    font-family:var(--fonte-primaria);
+    font-size:30px;
+    text-align:center;
+    margin-top:1px;
+    margin-bottom:15px;
+}
+
+.fonte__texto__nomes {
+    color:var(--cor-primaria);
+    font-family:var(--fonte-primaria);
+    font-size:30px;
+    text-align:center;
+    margin-top:1px;
+    margin-bottom:15px;
+}
+
+.apresentacao__texto__texto {
+    color:var(--cor-secundaria);
+    font-family:var(--fonte-primaria);
+    font-weight: 600;
+    font-size:22px;
+    margin-top:2px;
+    margin-bottom:5px;
+    text-align: center;
+}
+
+.fonte__texto__nomes__explicacao {
+    color:var(--cor-secundaria);
+    font-family:var(--fonte-primaria);
+    font-weight: 600;
+    font-size:22px;
+    margin-top:2px;
+    margin-bottom:5px;
+    text-align: center;
+}
+
+.apresentacao__destaque__titulo {
+    color:var(--cor-primaria);
+    font-family:var(--fonte-primaria);
+    font-size:55px;
+    font-weight: 400;
+    text-shadow:#1B56FD 5px 5px 10px;
+    text-align: center;
+    margin-top:10px;
+    margin-bottom: 20px;
+}
+
+.apresentacao__destaque__texto {
+    color:var(--cor-secundaria  );
+    font-family:var(--fonte-primaria);
+    font-size:18px;
+    font-weight: 600;
+    text-align: center;
+    margin-top:1px;
+    margin-bottom: 20px;
+    border-top:#1B56FD 2px solid;
+    border-bottom:#1B56FD 2px solid;
+    box-shadow: #1B56FD 0px 0px 5px;
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.apresentacao__destaque__redes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 16px;
+
+}
+.apresentacao__destaque__redes__link {
+    color:var(--cor-terciaria);
+    font-family:var(--fonte-primaria);
+    font-size:20px;
+    text-decoration:none;
+    font-weight: 600;
+    width:200px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: var(--cor-primaria);
+  }
+.cabecalho__materias {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    padding: 0;
+}
+.cabecalho__materias__titulo {
+    color:var(--cor-primaria);
+    font-family:var(--fonte-secundaria);
+    font-size:100px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 0px;
+   
+}
+
+.cabecalho__materias__texto {
+    color:var(--cor-secundaria);
+    font-family:var(--fonte-primaria);
+    font-size:20px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    border-bottom: #1B56FD 2px solid;
+    border-top: #1B56FD 2px solid;
+    padding: 10px;
+    box-shadow: #1B56FD 0px 0px 12px;
+}
+
+.cabecalho__materias__subtitulo {
+    color:var(--cor-fundo);
+    font-family:var(--fonte-secundaria);
+    font-weight: 400;
+    font-size:30px;
+    text-align: center;
+    margin-bottom: 4px;
+    margin-top:0;
+}
+
+.graficopizza {
+    aspect-ratio: 1/1;
+    width: 100%;
+    max-width: 320px;
+    display: block;
+    margin: 0 auto;
+    height:auto;
+}
+
+.container-graficos-naturezas {
+    display: flex;
+    gap:8px;
+    justify-content: center;
+    flex-wrap:nowrap;
+}
+
+.grafico__com__texto {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    flex-wrap:wrap;
+    gap: 25px;  
+}
+[id^="info-grafico"] li {
+    color: var(--cor-secundaria);    
+    font-size: 18px;            
+    font-family: var(--fonte-primaria);
+    margin-bottom: 6px;         
+    font-weight: bold;          
+}
+.graficopizza__complexo {
+    display: block;
+    aspect-ratio: 1/1;
+    flex-direction: row;
+    max-width: 320px;
+    height: auto;
+    margin-top: 0;
+}
+.grafico__com__texto__complexo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+@media (max-width: 1060px) {
+    .apresentacao {
+        flex-direction: column;
+    }
+    .cabecalho__materias__titulo, h1 {
+        font-size: 16px;
+    }
+    .cabecalho__materias__subtitulo, h2 {
+        font-size: 15px;
+    }
+    .cabecalho__materias__texto, p {
+        font-size: 13px;
+    }
+    .apresentacao__texto__titulo {
+    font-size:80px;
+    }
+    .apresentacao__texto__subtitulo {
+        font-size:24px;
+    }
+    .fonte__texto__titulo {
+    font-size:80px;
+    }
+    .fonte__texto__nomes {
+            font-size:24px;
+    }
+    .apresentacao__texto__texto {
+        font-size:16px;
+    }
+    .fonte__texto__nomes__explicaca {
+        font-size:16px;
+    }
+    .apresentacao__destaque__redes__link {
+        font-size:16px;
+    }
+    .apresentacao__destaque__titulo {
+        font-size:40px;
+    }
+    .container-graficos-naturezas {
+        flex-direction: column;   
+        align-items: center;      
+        gap: 24px;              
+    }      
+    .cabecalho__menu {
+        flex-direction: column;   
+        align-items: center;
+        gap: 16px;
+    }
+    .graficopizza, .graficopizza__complexo {
+        width: 90vw;
+        max-width: 320px;
+        display: block;
+    }   
+    .grafico__com__texto, .grafico__com__texto__complexo {
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+     h1,.cabecalho__materias__titulo {
+        font-size: 28px;
+    }
+    h2, .cabecalho__materias__subtitulo {
+        font-size: 20px;
+    }
+    [id^="info-grafico"] li {
+     font-size: 14px;            
+    }
+}
+@media (max-width: 380px) {
+    h1, .cabecalho__materias__titulo {
+        font-size: 22px;
+    }
+    h2, .cabecalho__materias__subtitulo {
+        font-size: 16px;
+    }
+    .graficopizza, .graficopizza__complexo {
+        width: 90vw;
+        max-width: 320px;
+        display: block;
+}
+    h1, .cabecalho__materias__titulo {
+        font-size: 18px;
+    }
+    h2, .cabecalho__materias__subtitulo {
+        font-size: 14px;
+    }
+    [id^="info-grafico"] li {
+       font-size: 9px; 
+    }
+}   
