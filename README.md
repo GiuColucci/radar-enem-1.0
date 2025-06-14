@@ -51,4 +51,4 @@ O RADAR ENEM 1.0 foi testado e otimizado para o **Google Chrome**. A compatibili
 Contribuições são bem-vindas!
 
 
-Desenvolvido por Giulia Colucci - Democratizando a educação no Brasil!
+Desenvolvido por Giulia Colucci.
