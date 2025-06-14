@@ -16,7 +16,7 @@ Acredito que alunos devem contar não apenas com materiais didáticos de ponta, 
 - 🔍 Organização dos temas mais cobrados dentro dos principais conteúdos (ao clicar nas fatias dos gráficos);
 - 📱 Interface simples, responsiva e objetiva;
 - � Divisão modular por páginas (uma para cada área do ENEM).
-![Demo do RADAR ENEM](caminho/para/o-arquivo.
+![Demo do RADAR ENEM](assets/Gifdemo.gif)
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -31,7 +31,7 @@ Acredito que alunos devem contar não apenas com materiais didáticos de ponta, 
 
 ## 🌐 Acesso
 
-O projeto está disponível em: [Link para o Vercel ou GitHub Pages]
+O projeto está disponível em: (https://radar-enem-1-0.vercel.app/index.html)
 
 ## ⚠️ Compatibilidade
 
