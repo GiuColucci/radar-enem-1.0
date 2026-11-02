@@ -1,3 +1,5 @@
+[English](README.en.md)
+
 # RADAR ENEM 1.0
 
 O RADAR ENEM 1.0 é uma ferramenta de análise estratégica para o Exame Nacional do Ensino Médio, desenvolvida para ajudar estudantes a identificar os conteúdos mais cobrados em cada área de conhecimento.
@@ -13,7 +15,7 @@ Acredito que alunos devem contar não apenas com materiais didáticos de ponta, 
 - 📈 Visualização das Médias Gerais de cada área do conhecimento em gráficos de linha;
 - 🔍 Organização dos temas mais cobrados dentro dos principais conteúdos (ao clicar nas fatias dos gráficos);
 - 📱 Interface simples, responsiva e objetiva;
-- � Divisão modular por páginas (uma para cada área do ENEM).
+- 🧩 Divisão modular por páginas (uma para cada área do ENEM).
 - Segue Abaixo uma demo do projeto:
 ![Demo do RADAR ENEM](assets/Gifdemo.gif)
 

@@ -1,3 +1,5 @@
+[Português](README.md)
+
 # RADAR ENEM 1.0
 
 "RADAR ENEM" is an analysis tool developed to help Brazilian students identify the most frequent subjects on the Brazilian National High School Exam (ENEM).
@@ -12,7 +14,7 @@ This project is the first step towards a larger goal: providing high-quality edu
 - 📈 Visualization of the general averages of each area of knowledge in line graphs;
 - 🔍 Organization of the most covered topics within the main content by clicking on the slices of the graphs;
 - 📱 A simple, responsive, and objective interface;
-- � Modular division by pages (one for each ENEM area).
+- 🧩 Modular division by pages (one for each ENEM area).
 
 ## 🛠️Tech Stack:
 
